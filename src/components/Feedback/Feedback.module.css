@@ -1,0 +1,22 @@
+.box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.count {
+  font-weight: bold;
+  color: #4caf50;
+}
