@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import s from "./Options.module.css";
 
 const Options = ({ update, reset, total }) => (
@@ -23,10 +23,10 @@ const Options = ({ update, reset, total }) => (
   </div>
 );
 
-Options.propTypes = {
-  update: PropTypes.func.isRequired,
-  reset: PropTypes.func.isRequired,
-  total: PropTypes.number.isRequired,
-};
+// Options.propTypes = {
+//   update: PropTypes.func.isRequired,
+//   reset: PropTypes.func.isRequired,
+//   total: PropTypes.number.isRequired,
+// };
 
 export default Options;
